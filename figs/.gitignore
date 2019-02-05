@@ -2,6 +2,7 @@
 *
 # Except this file
 !.gitignore
+!README.md
 
 # keep exp_data folder
-exp_data
+!exp_data/
