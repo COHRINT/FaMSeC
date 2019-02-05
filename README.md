@@ -3,7 +3,9 @@ add some kind of intro here
 
 Perhaps add an image of the road network, and a couple other images?
 
-<img src="resources/demo/orig.png" alt="Example Road-Network Delivery Problem" width="750">
+<p align="center">
+  <img src="orig.png" alt="Example Road-Network Delivery Problem" width="350">
+</p>
 
 ## Requirements
 This code uses Julia v0.6.3 with the following packages:
