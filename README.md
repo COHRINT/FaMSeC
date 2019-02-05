@@ -3,7 +3,7 @@ add some kind of intro here
 
 Perhaps add an image of the road network, and a couple other images?
 
-[image](orig.png)
+![image](orig.png)
 
 ## Requirements
 This code uses Julia v0.6.3 with the following packages:
