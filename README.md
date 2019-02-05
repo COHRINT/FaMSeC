@@ -28,8 +28,6 @@ This code uses Julia v0.6.3 with the following packages:
 * `DataFrames` (`v0.11.7`)/`CSV` (`v0.2.5`)--- dealing with reading and writing data in tables
 
 ## Process
-Add notes about how to create the experimental data.
-
 When creating data "from scratch" this is the process that I followed:
 
 1. run `make_nets_and_data.jl`, after adding the `experiment_name` to the `experiment_utilities.jl` file, and creating a corresponding experiment parameters file in the `experiment_params` folder, and following the format of other files in that folder. I typically did this on Google Cloud Platform using something like a 64 processor machine and a few hundred workers in julia.
@@ -43,12 +41,11 @@ When creating data "from scratch" this is the process that I followed:
 
 Other `make_*` files are, or were at some point, self-sufficient but were wrapped into the above two files over time. The `plot_*` files are run to make specialty plots for different papers.
 
-Discuss "farming out" to some cloud service and parallelizing the computations. OR using local computations that could take forever.
-
 ## A Note About Notation
-We used `X3` and `X4` in code because that was the original self-confidence notation. Later we changed the notation to `xQ` and `xO`, but we haven't replace that in the code yet...hasn't been a priority
+We used `X3` and `X4` in code because that was the original self-confidence notation. Later we changed the notation to `xQ` and `xO`, which is easier to follow, but we haven't replaced the old notation in the code yet...hasn't been a priority
 
 ## Description of Files
+Following are some high-level descriptions of the different files. Small `README.md` files are found within each directory to indicate their use.
 
 * `calc_xq.jl`---calculates the solver quality `xQ` value, used by `make_experiment_data.jl`
 * `experiment_utilities.jl`---some basic utilities used by `make_nets_and_data.jl`
