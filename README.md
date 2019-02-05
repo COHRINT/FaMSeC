@@ -4,7 +4,7 @@ add some kind of intro here
 Perhaps add an image of the road network, and a couple other images?
 
 <p align="center">
-  <img src="repo_imgs/FaMSeC.png" alt="Example Road-Network Delivery Problem" width="450">
+  <img src="repo_imgs/FaMSeC.png" alt="Example Road-Network Delivery Problem" width="750">
 </p>
 
 ## Requirements
