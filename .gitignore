@@ -1,4 +1,6 @@
-*.jl.cov
-*.jl.*.cov
-*.jl.mem
-deps/deps.jl
+# some ctags files
+.gutctags
+tags
+
+# any "old" files
+*old*
