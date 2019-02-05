@@ -1,3 +1,6 @@
+# this file is used to resize the road-network image .svg files so that they all
+# have a square aspect ratio. This is important for displaying the images in the
+# experiment
 include("utilities.jl")
 
 fdir = "./imgs"
