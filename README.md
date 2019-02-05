@@ -1,11 +1,15 @@
 # FaMSeC
-This is a repository for Factorized Machine Self-Confidence (FaMSeC). FaMSeC is a "self-assessment" *algorithmic assurance* ([see this paper][2]), and is meant to effect the how people interact with an autonomous system. The code here produces data that was used in [this experiment][3]. This code also, produced data for [this paper][4].
+This is a repository for Factorized Machine Self-Confidence (FaMSeC). FaMSeC is a "self-assessment" *algorithmic assurance* ([see this paper][2]), and is meant to effect the how people interact with an autonomous system. The code here produces data that was used in [this experiment][3]. This code also, produced data for [this paper][4]. It is based around the idea of performing meta-analysis of a decision-making agent. This repository implements xQ and xO; other metrics have not yet been developed.
 
 <p align="center">
   <img src="repo_imgs/FaMSeC.png" alt="Example Road-Network Delivery Problem" width="750">
 </p>
 
-The overall goal is to : 1) generate "road-network" MDPs, and simulate the performance of different solvers on them; 2) calculate two of the FaMSeC metrics---"Solver Quality" ($x_Q$), and "Outcome Assessment" ($x_P$); 3) provide scripts for plotting different data and investigating the different properties of $x_Q$.
+The overall goal is to : 1) generate "road-network" MDPs, and simulate the performance of different solvers on them; 2) calculate two of the FaMSeC metrics---"Solver Quality" (x_Q), and "Outcome Assessment" (x_P); 3) provide scripts for plotting different data and investigating the different properties of x_Q. This is an example road-network:
+
+<p align="center">
+  <img src="repo_imgs/orig.png" alt="Example Road-Network Delivery Problem" width="450">
+</p>
 
 ## Requirements
 This code uses Julia v0.6.3 with the following packages:
