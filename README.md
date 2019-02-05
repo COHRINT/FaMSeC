@@ -1,11 +1,11 @@
 # FaMSeC
-add some kind of intro here
-
-Perhaps add an image of the road network, and a couple other images?
+This is a repository for Factorized Machine Self-Confidence (FaMSeC). FaMSeC is a "self-assessment" *algorithmic assurance* ([1]][2]), and is meant to effect the how people interact with an autonomous system. The code here produces data that was used in [this experiment][3]. This code also, produced data for [this paper][4].
 
 <p align="center">
   <img src="repo_imgs/FaMSeC.png" alt="Example Road-Network Delivery Problem" width="750">
 </p>
+
+The overall goal is to : 1) generate "road-network" MDPs, and simulate the performance of different solvers on them; 2) calculate two of the FaMSeC metrics---"Solver Quality" ($x_Q$), and "Outcome Assessment" ($x_P$); 3) provide scripts for plotting different data and investigating the different properties of $x_Q$.
 
 ## Requirements
 This code uses Julia v0.6.3 with the following packages:
@@ -79,3 +79,6 @@ We used `X3` and `X4` in code because that was the original self-confidence nota
 * `X3_test.jl`---code to produce more numerical simulations of X3 in action. This figure was used in several papers, and shows two GPs that cross over in different locations. The value of X3 is compared at different locations and for different "global reward ranges".
 
 [1]:https://arxiv.org/abs/1810.06519
+[2]:http://bisraelsen.site/assurances
+[3]:https://github.com/COHRINT/SC_experiment
+[4]:http://bisraelsen.site/SQ
