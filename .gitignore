@@ -1,6 +1,3 @@
 # some ctags files
 .gutctags
 tags
-
-# any "old" files
-*old*
