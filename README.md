@@ -1,11 +1,11 @@
 # FaMSeC
-This is a repository for Factorized Machine Self-Confidence (FaMSeC). FaMSeC is a "self-assessment" *algorithmic assurance* ([see this paper][2]), and is meant to effect the how people interact with an autonomous system. The code here produces data that was used in [this experiment][3]. This code also, produced data for [this paper][4]. It is based around the idea of performing meta-analysis of a decision-making agent. This repository implements xQ and xO; other metrics have not yet been developed.
+This is a repository for Factorized Machine Self-Confidence (FaMSeC). FaMSeC is a "self-assessment" *algorithmic assurance* ([see this paper][2]), and is meant to effect the how people interact with an autonomous system. The code here produces data that was used in [this experiment][3]. This code also, produced data for [this paper][4]. It is based around the idea of performing meta-analysis of a decision-making agent. This repository implements ![equation][xQ] and ![equation][xO]; other metrics have not yet been developed.
 
 <p align="center">
   <img src="repo_imgs/FaMSeC.png" alt="Example Road-Network Delivery Problem" width="750">
 </p>
 
-The overall goal of the code here is to : 1) generate "road-network" MDPs, and simulate the performance of different solvers on them; 2) calculate two of the FaMSeC metrics---"Solver Quality" (xQ), and "Outcome Assessment" (xP); 3) provide scripts for plotting different data and investigating the different properties of xQ. This is an example road-network:
+The overall goal of the code here is to : 1) generate "road-network" MDPs, and simulate the performance of different solvers on them; 2) calculate two of the FaMSeC metrics---"Solver Quality" (![equation][xQ]), and "Outcome Assessment" (![equation][xO]); 3) provide scripts for plotting different data and investigating the different properties of ![equation][xQ]. This is an example road-network:
 
 <p align="center">
   <img src="repo_imgs/orig.png" alt="Example Road-Network Delivery Problem" width="450">
@@ -83,3 +83,5 @@ Following are some high-level descriptions of the different files. Small `README
 [2]:http://bisraelsen.site/assurances
 [3]:https://github.com/COHRINT/SC_experiment
 [4]:http://bisraelsen.site/SQ
+[xQ]:http://latex.codecogs.com/svg.latex?x_Q
+[xO]:http://latex.codecogs.com/svg.latex?x_O
