@@ -1,5 +1,5 @@
 # FaMSeC
-This is a repository for Factorized Machine Self-Confidence (FaMSeC). FaMSeC is a "self-assessment" *algorithmic assurance* ([see this paper][2]), and is meant to effect the how people interact with an autonomous system. The code here produces data that was used in [this experiment][3]. This code also, produced data for [this paper][4]. It is based around the idea of performing meta-analysis of a decision-making agent. This repository implements ![equation](latex.codecogs.com/svg.latex?x_Q) and xO; other metrics have not yet been developed.
+This is a repository for Factorized Machine Self-Confidence (FaMSeC). FaMSeC is a "self-assessment" *algorithmic assurance* ([see this paper][2]), and is meant to effect the how people interact with an autonomous system. The code here produces data that was used in [this experiment][3]. This code also, produced data for [this paper][4]. It is based around the idea of performing meta-analysis of a decision-making agent. This repository implements ![equation](http://latex.codecogs.com/svg.latex?x_Q) and xO; other metrics have not yet been developed.
 
 <p align="center">
   <img src="repo_imgs/FaMSeC.png" alt="Example Road-Network Delivery Problem" width="750">
