@@ -42,7 +42,7 @@ When creating data "from scratch" this is the process that I followed; read the 
 1. Run `make_nets_and_data.jl`, after adding the `experiment_name` to the `experiment_utilities.jl` file, and creating a corresponding experiment parameters file in the `experiment_params` folder, and following the format of other files in that folder. I typically did this on Google Cloud Platform using something like a 64 processor machine and a few hundred workers in julia (via `julia -p <number_of_workers>`).
 This process results in `.jld` and `.csv` files in the `logs` directory. The `.jld` files contain the raw network definitions and simulations, the `.csv` files contain summary data used for creating the solver quality model.
 
-* NOTE: After running the code you need to ***shut down the REPL*** before starting it up again for the step 2. This is due to an issue with the `.jld` library, it is unfortunate, but exists. ***Failing to do this can ruin the data that you just make (possibly ruining hours of processing)***
+* NOTE: After running the code you need to ***shut down the REPL*** before starting it up again for the step 2. This is due to an issue with the `.jld` library, it is unfortunate, but exists. ***Failing to do this can ruin the data that you just made (possibly ruining hours of processing)***
 
 2. Run `make_experiment_data.jl`. This file can do three things:
     * Create the `.svg` figures for the experiment---this is done in the `imgs` folder by default.
