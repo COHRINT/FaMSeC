@@ -57,6 +57,8 @@ This process results in `.jld` and `.csv` files in the `logs` directory. The `.j
 
     There is one pretty unfortunate part about this code: it runs on Julia `v1` instead of Julia `v0.6` like the previous code. This cannot be helped because of the necessary libraries, if it were simple I'd convert the other code from `v0.6`, but that isn't a priority right now.
 
+    Having said that, ***you could select the dataset "by hand"***, but this code provides a principled way of doing that.
+
 **Note: Other `make_*` files are, or were at some point, self-sufficient but were wrapped into the above two files over time. The `plot_*` files are run to make specialty plots for different papers.**
 
 ## A Note About Notation
