@@ -49,13 +49,13 @@ This process results in `.jld` and `.csv` files in the `logs` directory. The `.j
     * Calculate xQ for each network, this will produce the SQ model if necessary (which will be necessary if you are starting from scratch)---this data is written into the relevant, existing, `.jld` file.
     * Export data to a `.json` file that can be used in the MTurk experiment---these files are saved in the `logs` folder by default.
 
-Any combination of these three tasks can be run at a time. All of them need to be run to have the complete set of data for an experiment, but you can skip one step or another if you are already happy with the data that has been produced (this came in handy when I was debugging the `.json` export, and ![equation][xQ]).
+    Any combination of these three tasks can be run at a time. All of them need to be run to have the complete set of data for an experiment, but you can skip one step or another if you are already happy with the data that has been produced (this came in handy when I was debugging the `.json` export, and ![equation][xQ]).
 
 3. Run `svg_resize.jl` to "square-up" the `.svg` figures. I typically do this like so: from the root project directory run `julia svg_resize.jl`.
 
 4. Using Julia `v1.0.0` run `make_experiment_dataset.jl` in the `experiment_analysis` folder---this helps select a small subset from a (fairly) large set of generated networks. It operates on the `.json` files created in step 2. This code produces two plots, and creates files that can be saved into the PsiTurk experiment directory.
 
-There is one pretty unfortunate part about this code: it runs on Julia `v1` instead of Julia `v0.6` like the previous code. This cannot be helped because of the necessary libraries, if it were simple I'd convert the other code from `v0.6`, but that isn't a priority right now.
+    There is one pretty unfortunate part about this code: it runs on Julia `v1` instead of Julia `v0.6` like the previous code. This cannot be helped because of the necessary libraries, if it were simple I'd convert the other code from `v0.6`, but that isn't a priority right now.
 
 **Note: Other `make_*` files are, or were at some point, self-sufficient but were wrapped into the above two files over time. The `plot_*` files are run to make specialty plots for different papers.**
 
