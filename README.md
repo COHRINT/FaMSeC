@@ -96,6 +96,9 @@ Following are some high-level descriptions of the different files. Small `README
 * `visualize_medium_net.jl`---make plots of original and medium roadnets
 * `X3_empirical.jl`---code for original development of X3
 * `X3_test.jl`---code to produce more numerical simulations of X3 in action. This figure was used in several papers, and shows two GPs that cross over in different locations. The value of X3 is compared at different locations and for different "global reward ranges".
+* `make_experiment_dataset.jl`---make a plot of the total data set available, create a subset of the data to be used for the PsiTurk experiment
+* `consistent_agent_utils.jl`---helper functions for `make_experiment_dataset.jl`
+* `spread_sample.jl`---code for sub-sampling the full dataset, this is used by `make_experiment_dataset.jl`
 
 [1]:https://arxiv.org/abs/1810.06519
 [2]:http://bisraelsen.site/assurances
