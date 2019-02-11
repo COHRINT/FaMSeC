@@ -1,4 +1,7 @@
 if nworkers() < 5 && nworkers() > 1
+    # if we started with more than 1 worker, and less than 5 we'll take that as a sign
+    # to increase more programatically
+    # it is fine to use 1 worker but it will be slow if you are running a lot of networks
     nw = 150
     println("Adding $nw workers...")
     addprocs(nw, topology=:master_slave)
@@ -6,6 +9,7 @@ if nworkers() < 5 && nworkers() > 1
 end
 
 println("including libraries")
+# using @everywhere so we can run on nworkers simulteneously
 @everywhere using Roadnet_MDP
 @everywhere importall POMDPs, POMDPToolbox
 @everywhere include("make_training_nets.jl")
@@ -14,7 +18,8 @@ println("including libraries")
 include("utilities.jl")
 println("done")
 
-experiment_name = "mturk_supplement"
+# go grab `exp_dict` from a file
+experiment_name = "mturk_fast"
 include("experiment_utilities.jl")
 
 create_nets= true
@@ -26,9 +31,9 @@ if create_nets
     end
 end
 
-println("creating training data")
 make_simulations = true
 if make_simulations
+    println("creating training data")
     for cond in keys(exp_dict[:conditions])
         cond_dict = exp_dict[:conditions][cond]
         info("running sims for $(cond_dict[:fname])")

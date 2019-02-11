@@ -12,7 +12,7 @@ The overall goal of the code here is to : 1) generate "road-network" MDPs, and s
 </p>
 
 ## Requirements
-This code uses Julia v0.6.3 with the following packages:
+The main code uses Julia `v0.6.3` with the following packages:
 
 * `POMDPs.jl` (`v0.6.9`) and `POMDPToolbox` (`v0.2.8`) --- MDP and POMDP functionality
 * `MetaGraphs.jl` (`v0.4.1`) --- for adding metadata to `LightGraphs.jl` graphs
@@ -27,19 +27,37 @@ This code uses Julia v0.6.3 with the following packages:
 * `DataStructures` (`v0.8.4`) --- adds data structures (linked lists, queues, etc.)
 * `DataFrames` (`v0.11.7`)/`CSV` (`v0.2.5`)--- dealing with reading and writing data in tables
 
+The code for selecting the data set to be used in the experiment uses Julia `v1.0.0` (yes, I know this is very unfortunate, but that is how it is, and making either version compatible with the other isn't trivial, so I'm leaving it as-is)
+
+* `LatinHypercubeSampling` (`v1.2.0`)---for sampling the xQ/xO space
+* `JSON` (`v0.20.0`)---reading/writing `.json` files
+* `PyPlot` (`v2.7.0`)---plotting
+* `StatsBase` (`v0.27.0`)---basic statistics stuff
+* `DataFrames` (`v0.17.0`)/`CSV` (`v0.4.3`)---dealing with reading and writing data in tables
+* `TexTables` (`v0.1.0`)---making a nice summary table for publishing
+
 ## Process
-When creating data "from scratch" this is the process that I followed:
+When creating data "from scratch" this is the process that I followed; read the instructions carefully first, the end of step 1 is critical:
 
-1. run `make_nets_and_data.jl`, after adding the `experiment_name` to the `experiment_utilities.jl` file, and creating a corresponding experiment parameters file in the `experiment_params` folder, and following the format of other files in that folder. I typically did this on Google Cloud Platform using something like a 64 processor machine and a few hundred workers in julia.
+1. Run `make_nets_and_data.jl`, after adding the `experiment_name` to the `experiment_utilities.jl` file, and creating a corresponding experiment parameters file in the `experiment_params` folder, and following the format of other files in that folder. I typically did this on Google Cloud Platform using something like a 64 processor machine and a few hundred workers in julia (via `julia -p <number_of_workers>`).
+This process results in `.jld` and `.csv` files in the `logs` directory. The `.jld` files contain the raw network definitions and simulations, the `.csv` files contain summary data used for creating the solver quality model.
 
-2. run `make_experiment_data.jl`. This file can do three things:
-    * Create the `.svg` figures for the experiment
-    * Calculate xQ for each network, this will produce the SQ model if necessary (which will be necessary if you are starting from scratch)
-    * Export data to a `.json` file that can be used in the MTurk experiment
+* NOTE: After running the code you need to ***shut down the REPL*** before starting it up again for the step 2. This is due to an issue with the `.jld` library, it is unfortunate, but exists. Failing to do this can ruin the data that you just make (possibly ruining hours of processing)
 
-3. run `svg_resize.jl` to "square-up" the `.svg` figures
+2. Run `make_experiment_data.jl`. This file can do three things:
+    * Create the `.svg` figures for the experiment---this is done in the `imgs` folder by default.
+    * Calculate xQ for each network, this will produce the SQ model if necessary (which will be necessary if you are starting from scratch)---this data is written into the relevant, existing, `.jld` file.
+    * Export data to a `.json` file that can be used in the MTurk experiment---these files are saved in the `logs` folder by default.
 
-Other `make_*` files are, or were at some point, self-sufficient but were wrapped into the above two files over time. The `plot_*` files are run to make specialty plots for different papers.
+Any combination of these three tasks can be run at a time. All of them need to be run to have the complete set of data for an experiment, but you can skip one step or another if you are already happy with the data that has been produced (this came in handy when I was debugging the `.json` export, and ![equation][xQ]).
+
+3. Run `svg_resize.jl` to "square-up" the `.svg` figures. I typically do this like so: from the root project directory run `julia svg_resize.jl`.
+
+4. Using Julia `v1.0.0` run `make_experiment_dataset.jl` in the `experiment_analysis` folder---this helps select a small subset from a (fairly) large set of generated networks. It operates on the `.json` files created in step 2. This code produces two plots, and creates files that can be saved into the PsiTurk experiment directory.
+
+There is one pretty unfortunate part about this code: it runs on Julia `v1` instead of Julia `v0.6` like the previous code. This cannot be helped because of the necessary libraries, if it were simple I'd convert the other code from `v0.6`, but that isn't a priority right now.
+
+**Note: Other `make_*` files are, or were at some point, self-sufficient but were wrapped into the above two files over time. The `plot_*` files are run to make specialty plots for different papers.**
 
 ## A Note About Notation
 We used `X3` and `X4` in code because that was the original self-confidence notation. Later we changed the notation to `xQ` and `xO`, which is easier to follow, but we haven't replaced the old notation in the code yet...hasn't been a priority

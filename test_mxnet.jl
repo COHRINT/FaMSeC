@@ -9,8 +9,6 @@ TrainOutput = sin.(TrainInput)+rand(1,samplesize)*0.5
 ValidationInput = rand(1,samplesize)*10
 ValidationOutput = sin.(ValidationInput)+rand(1,samplesize)*0.5
 
-error()
-
 # how to set up data providers using data in memory
 function data_source(batchsize = 100)
   train = mx.ArrayDataProvider(

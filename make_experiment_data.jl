@@ -9,14 +9,14 @@ include("utilities.jl")
 include("plot_rwd_dists.jl")
 
 # make experiment dict
-experiment_name = "mturk"
+experiment_name = "mturk_fast"
 f_loc = "logs"
 include("experiment_utilities.jl")
 
 i_loc = "imgs"
 myval = []
 
-run = Dict(:figs=>false,:xq=>false,:json=>true)
+run = Dict(:figs=>true,:xq=>true,:json=>true)
 
 if run[:figs]
     info("Making Figures")

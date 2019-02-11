@@ -26,6 +26,12 @@ function plot_rwd_dists(net_num,xQ,xP,c_data,t_dist,o;fldr::String="figs",fname:
     if fname == ""
         fname = "net_num$net_num"
     end
+
+    if ~isdir(fldr)
+        println("making folder $fldr")
+        Base.Filesystem.mkdir(fldr)
+    end
+
     file_name = joinpath(fldr,fname)
     println("saving to: $file_name")
     PyPlot.savefig("$file_name.pdf",dpi=300,transparent=true)

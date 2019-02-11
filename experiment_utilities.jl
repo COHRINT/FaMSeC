@@ -52,16 +52,7 @@ elseif experiment_name == "mturk_supplement"
     include("experiment_params/mturk_supplement.jl")
 elseif experiment_name == "x4_test"
     include("experiment_params/x4_test.jl")
-elseif experiment_name == "n_vary"
-    include("experiment_params/n_vary.jl")
-elseif experiment_name == "sense_vary"
-    include("experiment_params/sense_vary.jl")
-elseif experiment_name == "transition_e_vary"
-    include("experiment_params/transition_e_vary.jl")
-elseif experiment_name == "net_transition_vary"
-    include("experiment_params/net_transition_vary.jl")
-elseif experiment_name == "net_transition_sense_vary"
-    include("experiment_params/net_transition_sense_vary.jl")
-elseif experiment_name == "something else"
-    #keeping empty for now
+else
+    # include others if desired, examples in `experiment_params` folder
+    error("not implemented yet")
 end
