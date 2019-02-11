@@ -9,6 +9,7 @@ include("spread_sample.jl")
 json_fldr = "test_data/"
 
 # load the files that will be used, this will vary based on the experiment that you ran in `make_nets_and_data.jl`
+# the following is the data that was used in the actual SC_experiment, and is included here as an example, new files should be loaded to make data for a new experiment
 data1 = JSON.parsefile("$(json_fldr)experiment_data_mturk_1_Ntprob_solver.json")
 data2 = JSON.parsefile("$(json_fldr)experiment_data_mturk_2_Ntprob_solver.json")
 data3 = JSON.parsefile("$(json_fldr)experiment_data_mturk_3_Ntprob_solver.json")
