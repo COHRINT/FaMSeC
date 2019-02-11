@@ -1,0 +1,1170 @@
+{
+    "68": {
+        "trans_prob": 0.4618225911804512,
+        "rwd_draw": 394.9477569535152,
+        "outcome": "success",
+        "trusted_mean": [
+            -1036.500684105939
+        ],
+        "image_file": "mturk_5_net_68.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.2998644881634824,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 42,
+        "xP": -0.39201500798976063,
+        "dist_to_pursuer": 2
+    },
+    "39": {
+        "trans_prob": 0.17824610354168602,
+        "rwd_draw": -1999.9999999999982,
+        "outcome": "fail",
+        "trusted_mean": [
+            -589.3010203974508
+        ],
+        "image_file": "mturk_5_net_39.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.3812802473616952,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 17,
+        "xP": -0.8659969948651565,
+        "dist_to_pursuer": 2
+    },
+    "85": {
+        "trans_prob": 0.953207040651399,
+        "rwd_draw": -1999.9999999999986,
+        "outcome": "fail",
+        "trusted_mean": [
+            1337.10147278011
+        ],
+        "image_file": "mturk_5_net_85.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.03224626518450611,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 23,
+        "xP": -0.7123037379426852,
+        "dist_to_pursuer": 4
+    },
+    "25": {
+        "trans_prob": 0.7513126327861701,
+        "rwd_draw": -1999.999999999998,
+        "outcome": "fail",
+        "trusted_mean": [
+            415.0798793407088
+        ],
+        "image_file": "mturk_5_net_25.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.16837595228438582,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 32,
+        "xP": -0.8240435664761748,
+        "dist_to_pursuer": 2
+    },
+    "55": {
+        "trans_prob": 0.09518559239746227,
+        "rwd_draw": -490.58558985876994,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1454.599133607428
+        ],
+        "image_file": "mturk_5_net_55.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.2917631704430472,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 40,
+        "xP": -0.5529561474843213,
+        "dist_to_pursuer": 2
+    },
+    "42": {
+        "trans_prob": 0.8941659192657594,
+        "rwd_draw": 1429.4999999999998,
+        "outcome": "success",
+        "trusted_mean": [
+            841.6478375405538
+        ],
+        "image_file": "mturk_5_net_42.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.1361215909382214,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 32,
+        "xP": 0.6049336982240432,
+        "dist_to_pursuer": 2
+    },
+    "29": {
+        "trans_prob": 0.0856351682044918,
+        "rwd_draw": -1999.9999999999977,
+        "outcome": "fail",
+        "trusted_mean": [
+            -880.6919832716189
+        ],
+        "image_file": "mturk_5_net_29.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.14582950020332927,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 24,
+        "xP": -0.5460870329879646,
+        "dist_to_pursuer": 2
+    },
+    "58": {
+        "trans_prob": 0.3033988122056488,
+        "rwd_draw": -890.4417075126637,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1424.0298342667022
+        ],
+        "image_file": "mturk_5_net_58.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2880989314933629,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 41,
+        "xP": -0.5948948026066975,
+        "dist_to_pursuer": 3
+    },
+    "59": {
+        "trans_prob": 0.7025571355154578,
+        "rwd_draw": -1988.1589415593305,
+        "outcome": "fail",
+        "trusted_mean": [
+            342.24229932058796
+        ],
+        "image_file": "mturk_5_net_59.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2480337008681832,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 30,
+        "xP": 0.6311460671451803,
+        "dist_to_pursuer": 2
+    },
+    "8": {
+        "trans_prob": 0.9999046588986136,
+        "rwd_draw": 1610.0,
+        "outcome": "success",
+        "trusted_mean": [
+            1154.7766267111233
+        ],
+        "image_file": "mturk_5_net_8.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.0986039365204718,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 34,
+        "xP": 0.7352453306230762,
+        "dist_to_pursuer": 4
+    },
+    "74": {
+        "trans_prob": 0.9907406554003964,
+        "rwd_draw": 1610.0,
+        "outcome": "success",
+        "trusted_mean": [
+            862.0363605454165
+        ],
+        "image_file": "mturk_5_net_74.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.4598849514096826,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 39,
+        "xP": 0.7506969761911964,
+        "dist_to_pursuer": 3
+    },
+    "95": {
+        "trans_prob": 0.14716190329632184,
+        "rwd_draw": -1999.9999999999984,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1323.3864401236442
+        ],
+        "image_file": "mturk_5_net_95.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.0701097245536804,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 36,
+        "xP": -0.6452571181822834,
+        "dist_to_pursuer": 2
+    },
+    "57": {
+        "trans_prob": 0.013540332577443914,
+        "rwd_draw": -1988.1589415593305,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1274.4251716060726
+        ],
+        "image_file": "mturk_5_net_57.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.33775315050637356,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 33,
+        "xP": -0.9364555008274498,
+        "dist_to_pursuer": 4
+    },
+    "90": {
+        "trans_prob": 0.4202865080388871,
+        "rwd_draw": -1999.999999999998,
+        "outcome": "fail",
+        "trusted_mean": [
+            -722.2344211353397
+        ],
+        "image_file": "mturk_5_net_90.svg",
+        "dist_to_exit": 2,
+        "xQ": 0.9236043946254759,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 28,
+        "xP": -0.5902882387149144,
+        "dist_to_pursuer": 3
+    },
+    "31": {
+        "trans_prob": 0.46335024592359875,
+        "rwd_draw": 53.368333118019905,
+        "outcome": "success",
+        "trusted_mean": [
+            -600.8996121627783
+        ],
+        "image_file": "mturk_5_net_31.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2112292329339251,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 30,
+        "xP": -0.07069301989142318,
+        "dist_to_pursuer": 2
+    },
+    "78": {
+        "trans_prob": 0.5195246572418608,
+        "rwd_draw": 1258.0249999999999,
+        "outcome": "success",
+        "trusted_mean": [
+            -302.82249885129517
+        ],
+        "image_file": "mturk_5_net_78.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.064230007406199,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 29,
+        "xP": -0.08340674091372824,
+        "dist_to_pursuer": 4
+    },
+    "14": {
+        "trans_prob": 0.773223048457377,
+        "rwd_draw": 653.6817251562495,
+        "outcome": "success",
+        "trusted_mean": [
+            711.4270529754547
+        ],
+        "image_file": "mturk_5_net_14.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.06588974101523,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 19,
+        "xP": 0.5592751426630316,
+        "dist_to_pursuer": 3
+    },
+    "52": {
+        "trans_prob": 0.40467263869902004,
+        "rwd_draw": 1429.4999999999998,
+        "outcome": "success",
+        "trusted_mean": [
+            -470.1932866836312
+        ],
+        "image_file": "mturk_5_net_52.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.3896314054166734,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 20,
+        "xP": 0.42557931118150427,
+        "dist_to_pursuer": 3
+    },
+    "18": {
+        "trans_prob": 0.02037486871266725,
+        "rwd_draw": -1988.1589415593305,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1446.9506468003008
+        ],
+        "image_file": "mturk_5_net_18.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.2968288841323914,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 39,
+        "xP": 0.26123571064477424,
+        "dist_to_pursuer": 3
+    },
+    "33": {
+        "trans_prob": 0.11198087695816716,
+        "rwd_draw": -2000.0,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1420.7070143067
+        ],
+        "image_file": "mturk_5_net_33.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.1869175638151788,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 39,
+        "xP": -0.6014207672686371,
+        "dist_to_pursuer": 3
+    },
+    "69": {
+        "trans_prob": 0.9518613955904869,
+        "rwd_draw": -1999.999999999998,
+        "outcome": "fail",
+        "trusted_mean": [
+            1050.9182190230172
+        ],
+        "image_file": "mturk_5_net_69.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.02546338817551385,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 32,
+        "xP": 0.24820261682627298,
+        "dist_to_pursuer": 3
+    },
+    "26": {
+        "trans_prob": 0.6448833539420931,
+        "rwd_draw": -1999.9999999999993,
+        "outcome": "fail",
+        "trusted_mean": [
+            112.21124169477486
+        ],
+        "image_file": "mturk_5_net_26.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.14813387274068573,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 34,
+        "xP": -0.9118210120640926,
+        "dist_to_pursuer": 2
+    },
+    "35": {
+        "trans_prob": 0.051614620674327094,
+        "rwd_draw": -998.6236410301789,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1116.038893558625
+        ],
+        "image_file": "mturk_5_net_35.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.4205006962785305,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 28,
+        "xP": -0.8856142414705589,
+        "dist_to_pursuer": 3
+    },
+    "83": {
+        "trans_prob": 0.590953157912963,
+        "rwd_draw": -2000.0,
+        "outcome": "fail",
+        "trusted_mean": [
+            116.14419052439672
+        ],
+        "image_file": "mturk_5_net_83.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.0536480177530712,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 26,
+        "xP": 0.3354167063557678,
+        "dist_to_pursuer": 3
+    },
+    "64": {
+        "trans_prob": 0.26299203233756496,
+        "rwd_draw": -1999.9999999999977,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1261.12235445689
+        ],
+        "image_file": "mturk_5_net_64.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.8437130996818298,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 35,
+        "xP": -0.8025690647565639,
+        "dist_to_pursuer": 2
+    },
+    "65": {
+        "trans_prob": 0.5264433516590159,
+        "rwd_draw": 53.368333118019905,
+        "outcome": "success",
+        "trusted_mean": [
+            -143.6155910593899
+        ],
+        "image_file": "mturk_5_net_65.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.04237077197144,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 24,
+        "xP": 0.04190946248131966,
+        "dist_to_pursuer": 2
+    },
+    "49": {
+        "trans_prob": 0.24159060827129641,
+        "rwd_draw": -566.0563103658312,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1121.8507006791606
+        ],
+        "image_file": "mturk_5_net_49.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.9550079758810237,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 30,
+        "xP": -0.6711540237603402,
+        "dist_to_pursuer": 4
+    },
+    "84": {
+        "trans_prob": 0.7220856092527972,
+        "rwd_draw": 1800.0,
+        "outcome": "success",
+        "trusted_mean": [
+            521.8365489946939
+        ],
+        "image_file": "mturk_5_net_84.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.1443299867926267,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 18,
+        "xP": 0.6109813833864233,
+        "dist_to_pursuer": 2
+    },
+    "37": {
+        "trans_prob": 0.4556920516275036,
+        "rwd_draw": 275.2003691058392,
+        "outcome": "success",
+        "trusted_mean": [
+            -813.6254926607567
+        ],
+        "image_file": "mturk_5_net_37.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.2135003468905075,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 35,
+        "xP": -0.2979229469266935,
+        "dist_to_pursuer": 2
+    },
+    "45": {
+        "trans_prob": 0.14456554241360564,
+        "rwd_draw": -1999.9999999999984,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1411.3719826674408
+        ],
+        "image_file": "mturk_5_net_45.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.2831689896600569,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 39,
+        "xP": 0.3013028998985521,
+        "dist_to_pursuer": 3
+    },
+    "86": {
+        "trans_prob": 0.38441136185217295,
+        "rwd_draw": -2000.0,
+        "outcome": "fail",
+        "trusted_mean": [
+            -600.1900863779118
+        ],
+        "image_file": "mturk_5_net_86.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.9066951252700981,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 22,
+        "xP": -0.615184141748499,
+        "dist_to_pursuer": 2
+    },
+    "67": {
+        "trans_prob": 0.27551933532993544,
+        "rwd_draw": -1999.9999999999986,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1373.8557997690953
+        ],
+        "image_file": "mturk_5_net_67.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.5098889773145077,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 39,
+        "xP": -0.9322799158509107,
+        "dist_to_pursuer": 3
+    },
+    "94": {
+        "trans_prob": 0.17039082135268968,
+        "rwd_draw": -1999.999999999998,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1142.2482887126607
+        ],
+        "image_file": "mturk_5_net_94.svg",
+        "dist_to_exit": 5,
+        "xQ": 0.25652543658596333,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 30,
+        "xP": -0.9819379745577864,
+        "dist_to_pursuer": 2
+    },
+    "1": {
+        "trans_prob": 0.23603334566204692,
+        "rwd_draw": -490.58558985876994,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1501.4902792215935
+        ],
+        "image_file": "mturk_5_net_1.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.8517497834131272,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 43,
+        "xP": -0.827345060626509,
+        "dist_to_pursuer": 2
+    },
+    "30": {
+        "trans_prob": 0.5532055454580578,
+        "rwd_draw": 1429.4999999999998,
+        "outcome": "success",
+        "trusted_mean": [
+            -578.9575979692564
+        ],
+        "image_file": "mturk_5_net_30.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.3012534327989804,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 41,
+        "xP": 0.019593764006827108,
+        "dist_to_pursuer": 2
+    },
+    "54": {
+        "trans_prob": 0.9538034231508576,
+        "rwd_draw": 1610.0,
+        "outcome": "success",
+        "trusted_mean": [
+            908.5425046540593
+        ],
+        "image_file": "mturk_5_net_54.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.2296456496806036,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 36,
+        "xP": 0.7526731020575854,
+        "dist_to_pursuer": 3
+    },
+    "47": {
+        "trans_prob": 0.8723344353741975,
+        "rwd_draw": 1610.0,
+        "outcome": "success",
+        "trusted_mean": [
+            762.4616658528903
+        ],
+        "image_file": "mturk_5_net_47.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.2338250054028297,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 32,
+        "xP": 0.5810909331159468,
+        "dist_to_pursuer": 2
+    },
+    "32": {
+        "trans_prob": 0.18582130997265378,
+        "rwd_draw": -1999.999999999999,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1457.7140572495032
+        ],
+        "image_file": "mturk_5_net_32.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.9478017217726482,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 41,
+        "xP": -0.756252616587573,
+        "dist_to_pursuer": 2
+    },
+    "77": {
+        "trans_prob": 0.7683586278313637,
+        "rwd_draw": -2000.0,
+        "outcome": "fail",
+        "trusted_mean": [
+            414.59800938867096
+        ],
+        "image_file": "mturk_5_net_77.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.0938570132865242,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 36,
+        "xP": 0.4184336790695482,
+        "dist_to_pursuer": 2
+    },
+    "80": {
+        "trans_prob": 0.9981360570779374,
+        "rwd_draw": 1095.1237499999997,
+        "outcome": "success",
+        "trusted_mean": [
+            721.6360732435191
+        ],
+        "image_file": "mturk_5_net_80.svg",
+        "dist_to_exit": 4,
+        "xQ": 1.2384466361228543,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 43,
+        "xP": 0.7668562091635767,
+        "dist_to_pursuer": 2
+    },
+    "40": {
+        "trans_prob": 0.5489828719625274,
+        "rwd_draw": -832.0439026449093,
+        "outcome": "fail",
+        "trusted_mean": [
+            -561.7138532668989
+        ],
+        "image_file": "mturk_5_net_40.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.1223898259555452,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 40,
+        "xP": -0.29112469967867194,
+        "dist_to_pursuer": 2
+    },
+    "82": {
+        "trans_prob": 0.7587747975618098,
+        "rwd_draw": -1048.69245897867,
+        "outcome": "fail",
+        "trusted_mean": [
+            397.18985803056927
+        ],
+        "image_file": "mturk_5_net_82.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.31823522203657456,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 36,
+        "xP": -0.6627234755898441,
+        "dist_to_pursuer": 2
+    },
+    "91": {
+        "trans_prob": 0.22515104100350247,
+        "rwd_draw": 520.9976388984371,
+        "outcome": "success",
+        "trusted_mean": [
+            -553.3420745673668
+        ],
+        "image_file": "mturk_5_net_91.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.095073430594905,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 17,
+        "xP": -0.07405241369412441,
+        "dist_to_pursuer": 2
+    },
+    "7": {
+        "trans_prob": 0.951916339835734,
+        "rwd_draw": -1966.969251229971,
+        "outcome": "fail",
+        "trusted_mean": [
+            1051.1174998178587
+        ],
+        "image_file": "mturk_5_net_7.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.02691326372266941,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 32,
+        "xP": -0.9610075533333359,
+        "dist_to_pursuer": 3
+    },
+    "9": {
+        "trans_prob": 0.25166218303197185,
+        "rwd_draw": -1999.9999999999977,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1089.884712669927
+        ],
+        "image_file": "mturk_5_net_9.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.9789938797150272,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 29,
+        "xP": -0.6472507644608085,
+        "dist_to_pursuer": 2
+    },
+    "75": {
+        "trans_prob": 0.5503342139580574,
+        "rwd_draw": -2000.0,
+        "outcome": "fail",
+        "trusted_mean": [
+            -73.4290449513974
+        ],
+        "image_file": "mturk_5_net_75.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2832682194932707,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 26,
+        "xP": 0.46406258863092886,
+        "dist_to_pursuer": 2
+    },
+    "60": {
+        "trans_prob": 0.5965370068827476,
+        "rwd_draw": 1610.0,
+        "outcome": "success",
+        "trusted_mean": [
+            63.96877001408558
+        ],
+        "image_file": "mturk_5_net_60.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2178240226073755,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 29,
+        "xP": 0.40936588248080574,
+        "dist_to_pursuer": 3
+    },
+    "79": {
+        "trans_prob": 0.5148629711054435,
+        "rwd_draw": 1800.0,
+        "outcome": "success",
+        "trusted_mean": [
+            -259.6347721235344
+        ],
+        "image_file": "mturk_5_net_79.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2329941790476513,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.4074074074074074,
+        "num_nodes": 27,
+        "xP": 0.275939749663205,
+        "dist_to_pursuer": 2
+    },
+    "38": {
+        "trans_prob": 0.2793951106725605,
+        "rwd_draw": -2000.0,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1343.6649091857919
+        ],
+        "image_file": "mturk_5_net_38.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.27925452404233325,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 38,
+        "xP": -0.1281983519920301,
+        "dist_to_pursuer": 2
+    },
+    "48": {
+        "trans_prob": 0.5249746566167794,
+        "rwd_draw": -1999.9999999999993,
+        "outcome": "fail",
+        "trusted_mean": [
+            -61.888252108333035
+        ],
+        "image_file": "mturk_5_net_48.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.8015203784544669,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 17,
+        "xP": -0.5132963277886058,
+        "dist_to_pursuer": 2
+    },
+    "76": {
+        "trans_prob": 0.5807816346526631,
+        "rwd_draw": 1095.1237499999997,
+        "outcome": "success",
+        "trusted_mean": [
+            135.79631105824654
+        ],
+        "image_file": "mturk_5_net_76.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.1380047774279198,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 21,
+        "xP": 0.3958464130103738,
+        "dist_to_pursuer": 2
+    },
+    "12": {
+        "trans_prob": 0.43710797460962514,
+        "rwd_draw": -1988.1589415593305,
+        "outcome": "fail",
+        "trusted_mean": [
+            -754.0284732708285
+        ],
+        "image_file": "mturk_5_net_12.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.1282761535088736,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 31,
+        "xP": 0.08505316861906831,
+        "dist_to_pursuer": 2
+    },
+    "100": {
+        "trans_prob": 0.33908123311767135,
+        "rwd_draw": 161.44035065054743,
+        "outcome": "success",
+        "trusted_mean": [
+            -1259.7636490075495
+        ],
+        "image_file": "mturk_5_net_100.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2920068365602542,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 36,
+        "xP": -0.48056445105344914,
+        "dist_to_pursuer": 2
+    },
+    "81": {
+        "trans_prob": 0.6036816885930896,
+        "rwd_draw": 940.3675624999996,
+        "outcome": "success",
+        "trusted_mean": [
+            -155.88375880362577
+        ],
+        "image_file": "mturk_5_net_81.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.101231078734558,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 36,
+        "xP": 0.14419126089231438,
+        "dist_to_pursuer": 2
+    },
+    "98": {
+        "trans_prob": 0.6814146962328582,
+        "rwd_draw": -637.7534948475397,
+        "outcome": "fail",
+        "trusted_mean": [
+            135.6530686222552
+        ],
+        "image_file": "mturk_5_net_98.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.9931649597537643,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 38,
+        "xP": 0.13903007309142912,
+        "dist_to_pursuer": 3
+    },
+    "16": {
+        "trans_prob": 0.20947237319807077,
+        "rwd_draw": -490.58558985876994,
+        "outcome": "fail",
+        "trusted_mean": [
+            -866.256974012646
+        ],
+        "image_file": "mturk_5_net_16.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.2610171864405586,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 24,
+        "xP": -0.05991533481052691,
+        "dist_to_pursuer": 4
+    },
+    "62": {
+        "trans_prob": 0.8723474485143243,
+        "rwd_draw": 1258.0249999999999,
+        "outcome": "success",
+        "trusted_mean": [
+            510.07321344445785
+        ],
+        "image_file": "mturk_5_net_62.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.523458172018473,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 43,
+        "xP": 0.6156653286248279,
+        "dist_to_pursuer": 2
+    },
+    "10": {
+        "trans_prob": 0.9866663668987996,
+        "rwd_draw": -1999.999999999998,
+        "outcome": "fail",
+        "trusted_mean": [
+            1456.445646414426
+        ],
+        "image_file": "mturk_5_net_10.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.019239789587399185,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 21,
+        "xP": 0.07973197741541749,
+        "dist_to_pursuer": 4
+    },
+    "19": {
+        "trans_prob": 0.2877015122756894,
+        "rwd_draw": -1999.999999999998,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1486.6880613852086
+        ],
+        "image_file": "mturk_5_net_19.svg",
+        "dist_to_exit": 4,
+        "xQ": 1.0582807928865041,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 43,
+        "xP": -0.684720507809702,
+        "dist_to_pursuer": 2
+    },
+    "51": {
+        "trans_prob": 0.4408974233731111,
+        "rwd_draw": -1559.2675590599767,
+        "outcome": "fail",
+        "trusted_mean": [
+            -665.6884206814719
+        ],
+        "image_file": "mturk_5_net_51.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.0604595147763796,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 29,
+        "xP": -0.403394657361673,
+        "dist_to_pursuer": 2
+    },
+    "22": {
+        "trans_prob": 0.6403962459899388,
+        "rwd_draw": 1258.0249999999999,
+        "outcome": "success",
+        "trusted_mean": [
+            232.1897425809413
+        ],
+        "image_file": "mturk_5_net_22.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.2002893627654756,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.5,
+        "num_nodes": 28,
+        "xP": 0.5039038571651533,
+        "dist_to_pursuer": 3
+    },
+    "88": {
+        "trans_prob": 0.865624810646251,
+        "rwd_draw": -1999.9999999999986,
+        "outcome": "fail",
+        "trusted_mean": [
+            571.269273919009
+        ],
+        "image_file": "mturk_5_net_88.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.03636021457852925,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 38,
+        "xP": -0.2000066981936176,
+        "dist_to_pursuer": 2
+    },
+    "24": {
+        "trans_prob": 0.27858242002877853,
+        "rwd_draw": -1988.1589415593305,
+        "outcome": "fail",
+        "trusted_mean": [
+            -734.4376727860681
+        ],
+        "image_file": "mturk_5_net_24.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.1261683800639586,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 22,
+        "xP": 0.27726144336433745,
+        "dist_to_pursuer": 4
+    },
+    "92": {
+        "trans_prob": 0.28616914065436294,
+        "rwd_draw": -637.7534948475397,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1036.0588201480534
+        ],
+        "image_file": "mturk_5_net_92.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.9050298966356264,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 28,
+        "xP": -0.699838063325124,
+        "dist_to_pursuer": 2
+    },
+    "53": {
+        "trans_prob": 0.7367868019103596,
+        "rwd_draw": 1429.4999999999998,
+        "outcome": "success",
+        "trusted_mean": [
+            418.54706550058273
+        ],
+        "image_file": "mturk_5_net_53.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.3598719644329107,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 28,
+        "xP": 0.585058105744866,
+        "dist_to_pursuer": 3
+    },
+    "5": {
+        "trans_prob": 0.4886128300795012,
+        "rwd_draw": -49.30008353788105,
+        "outcome": "fail",
+        "trusted_mean": [
+            -557.6014393455316
+        ],
+        "image_file": "mturk_5_net_5.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.7580322567650505,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 32,
+        "xP": -0.6903185532659989,
+        "dist_to_pursuer": 2
+    },
+    "23": {
+        "trans_prob": 0.8735441302706854,
+        "rwd_draw": 1429.4999999999998,
+        "outcome": "success",
+        "trusted_mean": [
+            584.5887976912179
+        ],
+        "image_file": "mturk_5_net_23.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.5468055600106316,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 38,
+        "xP": 0.45437104309698473,
+        "dist_to_pursuer": 2
+    },
+    "63": {
+        "trans_prob": 0.548635145519931,
+        "rwd_draw": 1429.4999999999998,
+        "outcome": "success",
+        "trusted_mean": [
+            58.50375642712959
+        ],
+        "image_file": "mturk_5_net_63.svg",
+        "dist_to_exit": 3,
+        "xQ": 1.1245616582601072,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 19,
+        "xP": 0.3902040073241817,
+        "dist_to_pursuer": 3
+    },
+    "27": {
+        "trans_prob": 0.07782644396003469,
+        "rwd_draw": -1999.9999999999984,
+        "outcome": "fail",
+        "trusted_mean": [
+            -926.9904183563149
+        ],
+        "image_file": "mturk_5_net_27.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.9571389392199506,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 25,
+        "xP": -0.6539010804217753,
+        "dist_to_pursuer": 4
+    },
+    "56": {
+        "trans_prob": 0.5196753317937302,
+        "rwd_draw": -1335.6664640495696,
+        "outcome": "fail",
+        "trusted_mean": [
+            -517.2116610984881
+        ],
+        "image_file": "mturk_5_net_56.svg",
+        "dist_to_exit": 4,
+        "xQ": 0.7217000790156208,
+        "mcts_depth": 11,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 35,
+        "xP": -0.671713007801959,
+        "dist_to_pursuer": 3
+    },
+    "97": {
+        "trans_prob": 0.09292924093459032,
+        "rwd_draw": -1999.9999999999995,
+        "outcome": "fail",
+        "trusted_mean": [
+            -616.3992004047204
+        ],
+        "image_file": "mturk_5_net_97.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.5301980309265631,
+        "mcts_depth": 9,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 17,
+        "xP": -0.8856712354868052,
+        "dist_to_pursuer": 2
+    },
+    "41": {
+        "trans_prob": 0.37097066286146885,
+        "rwd_draw": 161.44035065054743,
+        "outcome": "success",
+        "trusted_mean": [
+            -764.3557509579371
+        ],
+        "image_file": "mturk_5_net_41.svg",
+        "dist_to_exit": 2,
+        "xQ": 1.1175807049942517,
+        "mcts_depth": 10,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 25,
+        "xP": -0.28043930384213667,
+        "dist_to_pursuer": 3
+    },
+    "15": {
+        "trans_prob": 0.2811902322857298,
+        "rwd_draw": -1999.9999999999982,
+        "outcome": "fail",
+        "trusted_mean": [
+            -1197.7476904056507
+        ],
+        "image_file": "mturk_5_net_15.svg",
+        "dist_to_exit": 3,
+        "xQ": 0.6334369425202598,
+        "mcts_depth": 8,
+        "edge_to_node_ratio": 2.0,
+        "num_nodes": 33,
+        "xP": -0.7157743379040444,
+        "dist_to_pursuer": 4
+    }
+}
