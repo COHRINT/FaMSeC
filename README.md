@@ -11,6 +11,8 @@ The overall goal of the code here is to : 1) generate "road-network" MDPs, and s
   <img src="repo_imgs/orig.png" alt="Example Road-Network Delivery Problem" width="450">
 </p>
 
+**Note**: This repository is basically taken from the `dev` branch of the [self_confidence][5] repository. I have removed unused files, and a few other things like that. The reason I did this was that this code stands alone from the rest of the `self_confidence` repository. Also, doing this makes a clean separation from my work on ![equation][xQ] and the MTurk experiment involving both ![equation][xQ] and ![equation][xO], verses the work done on the other repository which was focused only on development of ![equation][xO]
+
 ## Requirements
 The main code uses Julia `v0.6.3` with the following packages:
 
@@ -103,5 +105,6 @@ Following are some high-level descriptions of the different files. Small `README
 [2]:http://bisraelsen.site/assurances
 [3]:https://github.com/COHRINT/SC_experiment
 [4]:http://bisraelsen.site/SQ
+[5]:https://github.com/COHRINT/self_confidence
 [xQ]:http://latex.codecogs.com/svg.latex?x_Q
 [xO]:http://latex.codecogs.com/svg.latex?x_O
