@@ -83,10 +83,7 @@ Following are some high-level descriptions of the different files. Small `README
 * `plot_root_comparison.jl`---Used to plot different fractional exponents when thinking about the $\alpha$ parameter of xQ
 * `plot_rwd_dists.jl`---file used in `make_experiment_data.jl` to plot the `surprisesuccess` and `surprisefailure` figures.
 * `prepend_preamble.tex`---this file is used by the `TikzGraphs` library in order to add special characters when making the road-network images. This enables the truck and motorcycle icons to be displayed
-* `roadnet_MDP.jl`--- TODO: ADD THIS AT SOME POINT
-* `Roadnet_MDP.jl`--- TODO: ADD THIS AT SOME POINT
-* `roadnet_pursuer_driver.jl`--- TODO: ADD THIS AT SOME POINT
-* `roadnet_pursuer_generator_MDP`--- TODO: ADD THIS AT SOME POINT
+* `Roadnet_MDP.jl`, `roadnet_pursuer_generator_MDP`---definitions for the "roadnet" MDP. That is an autonomous vehicle trying to reach a destination on a road-network while avoiding a pursuer.
 * `road_net_visualize.jl`---make an animation of a simulated run.
 * `self_confidence.jl`---code for calculating both `xO` (`X4`) and `xQ` (`X3`)
 * `send_mail.jl`---used for sending email when `make_nets_and_data.jl` is done running on Google Cloud Platform.
