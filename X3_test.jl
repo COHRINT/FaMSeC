@@ -56,36 +56,32 @@ end
 
 SQ = []
 SQ_raw = []
-Ks = []
 solver_reward_range = [[-0.,5.], [-0.,0.5], [-0.,0.05], [-0.,0.005]]
 for (c,t) in zip(dist_cand,dist_trust)
 
     sqs = []
     sq_raw = []
-    ks = []
-    for i in 1:length(solver_reward_range)
+    for i = 1:length(solver_reward_range)
         println("#################################")
-        (sq,sqr,k) = X3(c,t,global_rwd_range=solver_reward_range[i],return_raw_sq=true)
+        println("i: $i")
+        (sq,sqr) = X3(c,t,global_rwd_range=solver_reward_range[i],return_raw_sq=true)
         println("using $(solver_reward_range[i]) reward range, got $sq")
         push!(sqs,sq)
         push!(sq_raw,sqr)
-        push!(ks,k)
     end
     push!(SQ,sqs)
     push!(SQ_raw,sq_raw)
-    push!(Ks,ks)
 end
-println("HERE")
 
 show_obs = false
 beta_val = 0.999
 
 Plots.scalefontsizes(1.0)
 
-p1 = Plots.plot(trusted_gp,β=beta_val,linecolor=:blue,fillcolor=:blue,lw=3,obsv=show_obs,fillalpha=0.2,label=L"test",legend=:topleft)
-Plots.plot!(candidate_gp,β=beta_val,linecolor=:red,fillcolor=:red,lw=2,obsv=show_obs,fillalpha=0.2,label=L"test2")
-#  p1 = Plots.plot(trusted_gp,β=beta_val,linecolor=:blue,fillcolor=:blue,lw=3,obsv=show_obs,fillalpha=0.2,label=L"trusted $\mathcal{S}^*$",legend=:topleft)
-#  Plots.plot!(candidate_gp,β=beta_val,linecolor=:red,fillcolor=:red,lw=2,obsv=show_obs,fillalpha=0.2,label=L"candidate $\mathcal{S}$")
+#  p1 = Plots.plot(trusted_gp,β=beta_val,linecolor=:blue,fillcolor=:blue,lw=3,obsv=show_obs,fillalpha=0.2,label=L"test",legend=:topleft)
+#  Plots.plot!(candidate_gp,β=beta_val,linecolor=:red,fillcolor=:red,lw=2,obsv=show_obs,fillalpha=0.2,label=L"test2")
+p1 = Plots.plot(trusted_gp,β=beta_val,linecolor=:blue,fillcolor=:blue,lw=3,obsv=show_obs,fillalpha=0.2,label=L"trusted $\mathcal{S}^T$",legend=:topleft)
+Plots.plot!(candidate_gp,β=beta_val,linecolor=:red,fillcolor=:red,lw=2,obsv=show_obs,fillalpha=0.2,label=L"candidate $\mathcal{S}^C$")
 Plots.scatter!(points_of_interest_x,points_of_interest_y,marker=:star,markersize=10,label="points of interest")
 xlabel!("task parameter")
 ylabel!("reward")
