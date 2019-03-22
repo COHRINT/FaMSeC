@@ -100,7 +100,7 @@ function X3(c::Distributions.Distribution,t::Distributions.Distribution;
     println("###############")
 
     if return_raw_sq
-        D = Dict(:SQ=>SQ,:c=>c,:t=>t,:f=>f,:alpha=>alpha,:H=>H,:k=>k,:x0=>x0,:L=>L,:global_rwd_range=>global_rwd_range)
+        D = Dict(:SQ=>SQ,:c=>c,:t=>t,:f=>f,:alpha=>alpha,:H=>H,:k=>k,:x0=>x0,:L=>L,:global_rwd_range=>global_rwd_range,:H_scaled=>H_scaled)
         #  println(D)
         return SQ, D
 
