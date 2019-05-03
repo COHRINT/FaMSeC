@@ -29,7 +29,7 @@ mdp_gm = roadnet_with_pursuer(gm,tp=t,d=d)
 pygui(false)
 
 function plot_results()
-	results_set = jldopen("mcts_vi_comparison_results_set.jld","r") do file
+    results_set = jldopen("$(fold)mcts_vi_comparison_results_set.jld","r") do file
 	read(file,"results_set")
 	end
 
@@ -50,7 +50,7 @@ function plot_results()
     solve_set = [1,2,3,4,7]
     solve_labels = ["MCTS\nd=1","MCTS\nd=3","MCTS\nd=6","MCTS\nd=10","MCTS\nd=15","MCTS\nd=30","Value\nIteration"]
     s_ticks = collect(1:length(solve_set))
-    axgo[:violinplot](results_set[:go][:,solve_set])
+    axgo[:violinplot](results_set[:go][:,solve_set],widths=0.5,points=500,showmedians=true)
     axgo[:set_xlabel]("Solver",fontsize=fsize)
     axgo[:set_ylabel]("Expected Rewards",fontsize=fsize)
     axgo[:set_title]("Comparison of MCTS policies to Value Iteration policy",fontsize=fsize)
