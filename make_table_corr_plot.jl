@@ -7,7 +7,8 @@ type_list = [Float64,Float64,Float64,Float64,Float64,Float64,Float64,Float64,Flo
 #  table = CSV.read("logs/test_gconvert.csv")
 #  table = CSV.read("logs/net_transition_discount_vary_reference_solver_training.csv",types=type_list,weakrefstrings=false,rows=10)
 #  table = CSV.read("logs/n_vary_reference_solver_training.csv")
-table = CSV.read("logs/mturk_trusted_condition_1.csv")
+#  table = CSV.read("logs/mturk_trusted_condition_1.csv")
+table = CSV.read("logs/mturk_candidate_condition_4.csv")
 #  for c in names(table)
     #  println(typeof(table[c]))
 #  end
@@ -45,5 +46,15 @@ ax[1].set_xlabel("transition probability",size=fsize)
 ax[2].scatter(tbl_ary[:,12],tbl_ary[:,21],c=tbl_ary[:,3])
 ax[2].set_title("N vs. reward",size=fsize)
 ax[2].set_xlabel("N",size=fsize)
+
+fig2,ax2 = PyPlot.subplots(1,1)
+fig.set_size_inches(5,5)
+fsize = 15
+
+ax2.scatter(tbl_ary[:,3],tbl_ary[:,12],c=tbl_ary[:,21])
+ax2.set_title("ptrans vs N",size=fsize)
+ax2.set_xlabel("ptrans",size=fsize)
+ax2.set_ylabel("N",size=fsize)
+
 #  PyPlot.scatter(tbl_ary[12])
 #  cornerplot(tbl_ary[:,col_list],label=names(table)[col_list])

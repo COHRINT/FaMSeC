@@ -44,8 +44,8 @@ net = @mx.chain     mx.Variable(:data) =>
                     mx.LinearRegressionOutput(mx.Variable(:label))
 
 # final model definition, don't change, except if using gpu
-#  model = mx.FeedForward(net, context=mx.cpu())
-model = mx.FeedForward(net, context=mx.gpu())
+model = mx.FeedForward(net, context=mx.cpu())
+#  model = mx.FeedForward(net, context=mx.gpu())
 
 # set up the optimizer: select one, explore parameters, if desired
 #optimizer = mx.SGD(η=0.01, μ=0.9, λ=0.00001)
